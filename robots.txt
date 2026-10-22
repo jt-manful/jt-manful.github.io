@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jt-manful.github.io/sitemap.xml

@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>John Terence Manful | Software engineer moving into robotics</title>
+  <meta name="description" content="Software engineer moving into robotics: ROS 2, robot learning and production backends. M.Sc. Computer Science student at the University of Bonn.">
+  <meta name="author" content="John Terence Manful">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ECEFF0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0C2A4D" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://jt-manful.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="John Terence Manful">
+  <meta property="og:title" content="John Terence Manful | Software engineer moving into robotics">
+  <meta property="og:description" content="ROS 2, robot learning and production backends. M.Sc. Computer Science student at the University of Bonn. Open to working student, internship and full time roles.">
+  <meta property="og:url" content="https://jt-manful.github.io/">
+  <meta property="og:image" content="https://jt-manful.github.io/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="John Terence Manful: software engineer moving into robotics, drawn as a blueprint sheet with a robot arm">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/plex-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script>
+    /* Runs before first paint: apply the saved theme and flag that JavaScript is available. */
+    (function () {
+      var r = document.documentElement;
+      r.classList.add('js');
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') r.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "John Terence Manful",
+    "url": "https://jt-manful.github.io/",
+    "jobTitle": "Software engineer",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "University of Bonn" },
+    "sameAs": [
+      "https://github.com/jt-manful",
+      "https://www.linkedin.com/in/john-terence-manful"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Drawing sheet border with centring marks -->
+  <div class="frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top">John Terence Manful</a>
+
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#works">Works</a>
+        <a href="#experience">Experience</a>
+        <a href="#notes">Field notes</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-tools">
+        <a class="icon-btn" href="https://github.com/jt-manful" aria-label="GitHub profile" title="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+        </a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/john-terence-manful" aria-label="LinkedIn profile" title="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 10v9M5 5.5v.01M10 19v-9M10 14c0-2.5 1.6-4 3.6-4S17 11.4 17 14v5"/></svg>
+        </a>
+        <button class="icon-btn theme-btn" type="button" data-theme-toggle aria-label="Switch theme" title="Switch theme">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path class="solid" d="M12 4a8 8 0 0 1 0 16z"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-controls="site-nav" aria-expanded="false" aria-label="Menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Scroll progress. Ticks are added by main.js, one per sheet. -->
+  <div class="progress" aria-hidden="true"><span class="progress-fill"></span></div>
+
+  <div class="wrap">
+    <main id="main">
+
+      <!-- ===================== SHEET 01: INTRO ===================== -->
+      <section class="sheet hero" id="top" aria-labelledby="intro-h" data-sheet="Intro">
+        <div class="hero-copy">
+          <h1 id="intro-h"><span>John</span><span>Terence</span><span>Manful</span></h1>
+          <p class="lead">Intelligent Systems Engineer. I build robust ROS 2 systems and develop cutting-edge robot learning and AI models, backed by production software engineering experience.</p>
+          <p class="meta">M.Sc. Computer Science student at the University of Bonn, focused on robotics, autonomous systems and machine learning.</p>
+          <p class="availability"><strong>Open to</strong> working student, internship and full time roles, in Germany and remote.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#works"><span>See my work</span></a>
+            <a class="btn btn-secondary" href="#contact"><span>Get in touch</span></a>
+          </div>
+        </div>
+
+        <figure class="arm-fig">
+          <svg class="arm" data-arm viewBox="0 50 560 420" role="img" aria-labelledby="arm-title">
+            <title id="arm-title">Line drawing of a three joint robot arm picking up a small block and placing it a short distance away</title>
+            <defs>
+              <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                <line x1="0" y1="0" x2="0" y2="7" class="hatchline"/>
+              </pattern>
+            </defs>
+
+            <!-- ground and base -->
+            <path class="ln draw" pathLength="1" style="--d:.0s" d="M30 420 H540"/>
+            <rect class="hatchfill fade" style="--d:1.2s" x="30" y="420" width="510" height="10"/>
+            <path class="ln fillbg draw" pathLength="1" style="--d:.2s" d="M108 420 L120 372 L180 372 L192 420"/>
+            <path class="hatchfill fade" style="--d:1.2s" d="M108 420 L120 372 L180 372 L192 420 Z"/>
+
+            <!-- dimensions: joint height, reach limit, pick and place marks -->
+            <g class="fade" style="--d:1.3s">
+              <path class="ln thin" d="M84 360 V420 M78 360 H92 M78 420 H92"/>
+              <path class="ln thin dash" d="M96 360 H134"/>
+              <text x="72" y="394" text-anchor="end">h</text>
+              <path class="ln thin dashdot" d="M423.5 420 A280 280 0 0 0 150 80"/>
+              <text x="372" y="152">reach limit</text>
+              <path class="ln thin" d="M300 420 V436 M400 420 V436"/>
+              <text x="300" y="454" text-anchor="middle">A</text>
+              <text x="400" y="454" text-anchor="middle">B</text>
+            </g>
+
+            <!-- the block being moved -->
+            <g id="block" class="fade" style="--d:1.2s" transform="translate(300 406)">
+              <rect class="ln fillbg" x="-14" y="-14" width="28" height="28"/>
+              <rect class="hatchfill" x="-14" y="-14" width="28" height="28"/>
+            </g>
+
+            <!-- the arm: joint 1 at the base, joint 2 at the elbow, joint 3 at the wrist -->
+            <g id="j1" transform="translate(150 360) rotate(-72.44)">
+              <path class="ln fillbg draw" pathLength="1" style="--d:.5s" d="M0 -13 L150 -9 L150 9 L0 13 Z"/>
+              <path class="ln thin dashdot fade" style="--d:1.3s" d="M-6 0 H156"/>
+              <g id="j2" transform="translate(150 0) rotate(108.76)">
+                <path class="ln fillbg draw" pathLength="1" style="--d:.8s" d="M0 -10 L130 -7 L130 7 L0 10 Z"/>
+                <path class="ln thin dashdot fade" style="--d:1.3s" d="M-6 0 H136"/>
+                <g id="j3" transform="translate(130 0) rotate(53.67)">
+                  <path class="ln fillbg draw" pathLength="1" style="--d:1.0s" d="M0 -8 L26 -8 L26 8 L0 8 Z"/>
+                  <path class="ln draw" pathLength="1" style="--d:1.1s" d="M26 -24 V24"/>
+                  <g id="finger-l" class="fade" style="--d:1.2s" transform="translate(26 -20)"><path class="ln fillbg" d="M0 -5 H18 V0 H0 Z"/></g>
+                  <g id="finger-r" class="fade" style="--d:1.2s" transform="translate(26 20)"><path class="ln fillbg" d="M0 0 H18 V5 H0 Z"/></g>
+                </g>
+                <circle class="ln fillbg draw" pathLength="1" style="--d:1.0s" cx="130" cy="0" r="9"/>
+                <circle class="pinhead fade" style="--d:1.3s" cx="130" cy="0" r="2.5" fill="currentColor"/>
+              </g>
+              <circle class="ln fillbg draw" pathLength="1" style="--d:.9s" cx="150" cy="0" r="12"/>
+              <circle class="pinhead fade" style="--d:1.3s" cx="150" cy="0" r="2.5" fill="currentColor"/>
+              <circle class="ln fillbg draw" pathLength="1" style="--d:.6s" cx="0" cy="0" r="15"/>
+              <circle class="pinhead fade" style="--d:1.3s" cx="0" cy="0" r="3" fill="currentColor"/>
+            </g>
+
+            <!-- pointer target, shown only while the arm follows the pointer -->
+            <g id="target" transform="translate(300 330)">
+              <circle class="ln" r="7"/>
+              <path class="ln" d="M-14 0 H-4 M4 0 H14 M0 -14 V-4 M0 4 V14"/>
+            </g>
+
+            <!-- live joint angle readout -->
+            <g class="fade" style="--d:1.5s">
+              <text x="8" y="66">Joint angles</text>
+              <text x="8" y="88">J1 <tspan class="val" id="r1">&#8722;72.4&#176;</tspan></text>
+              <text x="8" y="106">J2 <tspan class="val" id="r2">+108.8&#176;</tspan></text>
+              <text x="8" y="124">J3 <tspan class="val" id="r3">+53.7&#176;</tspan></text>
+              <text x="8" y="148" id="rmode">Pick and place</text>
+            </g>
+          </svg>
+          <figcaption>Fig. 1 Three joint planar arm. Move the pointer across this sheet to steer it, otherwise it runs a pick and place loop.</figcaption>
+        </figure>
+
+        <div class="titleblock" aria-hidden="true" style="grid-column:1 / -1">
+          <div><small>Title</small>Intro</div><div><small>Sheet</small>01 of 08</div><div><small>Revision</small>Oct 2026</div>
+        </div>
+      </section>
+
+      <!-- ===================== SHEET 02: ABOUT ===================== -->
+      <section class="sheet" id="about" aria-labelledby="about-h" data-sheet="About">
+        <div class="sheet-head"><h2 id="about-h">About</h2></div>
+        <div class="about-grid">
+          <div class="about-text">
+            <!-- TODO: read these paragraphs aloud and rewrite anything that does not sound like you. -->
+            <p>I started as a software engineer, building APIs and full stack features in Agile teams at Turntabl and at Ashesi University. The stack was Spring Boot, Django REST Framework, React, Azure and AWS, with a lot of testing along the way.</p>
+            <p>Robotics came in through a Ashesi, where I programmed a ROS based service robot in C++ and Python and ran a user study. Now I am doing an M.Sc. at the University of Bonn and fine tuning vision language action models on a bimanual robot in the Cognitive Robotics Lab.</p>
+            <p>What keeps me interested is the point where software meets the physical world: data pipelines, policy servers, simulation and real hardware all having to work together.</p>
+            <p class="learning"><strong>Currently learning:</strong> advanced ROS 2, and German (B1). English is fluent.</p>
+          </div>
+          <figure class="fig portrait">
+            <div class="fig-frame">
+              <svg class="ph" aria-hidden="true" preserveAspectRatio="none" viewBox="0 0 100 125"><line x1="0" y1="0" x2="100" y2="125" vector-effect="non-scaling-stroke"/><line x1="100" y1="0" x2="0" y2="125" vector-effect="non-scaling-stroke"/></svg>
+              <span class="ph-label">Photo pending</span>
+              <!-- TODO: add your photo at assets/img/portrait.jpg (about 800x1000) and write a real alt text. -->
+              <img src="assets/media/profile.png" alt="Portrait of John Terence Manful" width="800" height="1000" loading="lazy" onerror="this.classList.add('is-missing')">
+            </div>
+            <figcaption class="fig-cap">Fig. 2 Portrait</figcaption>
+          </figure>
+        </div>
+        <div class="titleblock" aria-hidden="true">
+          <div><small>Title</small>About</div><div><small>Sheet</small>02 of 08</div><div><small>Revision</small>Oct 2026</div>
+        </div>
+      </section>
+
+      <!-- ===================== SHEET 03: SKILLS ===================== -->
+      <section class="sheet" id="skills" aria-labelledby="skills-h" data-sheet="Skills">
+        <div class="sheet-head">
+          <h2 id="skills-h">Skills</h2>
+          <p class="lede">Each group points to the work that shows it.</p>
+        </div>
+        <!-- TODO: Redis, microservices, Azure IoT and AWS IoT are on your CV but not tied to a project here. Add them back once you can point to where you used them. -->
+        <table class="table">
+          <caption class="visually-hidden">Skills grouped by area, with the projects that show them</caption>
+          <thead class="visually-hidden"><tr><th scope="col">Area</th><th scope="col">Skills</th><th scope="col">Seen in</th></tr></thead>
+          <tbody>
+            <tr>
+              <th scope="row"><h3>Robotics and perception</h3></th>
+              <td class="items"><ul class="slashes"><li>ROS 2</li><li>Nav2</li><li>SLAM Toolbox</li><li>RViz2</li><li>Gazebo</li><li>MuJoCo</li><li>LeRobot</li><li>OpenCV</li><li>ONNX Runtime</li></ul></td>
+              <td class="seen">Seen in <a href="#work-vla">VLA models</a>, <a href="#work-platform">robotics platform</a>, <a href="#work-nav">mobile robot</a></td>
+            </tr>
+            <tr>
+              <th scope="row"><h3>Machine learning</h3></th>
+              <td class="items"><ul class="slashes"><li>VLA fine tuning</li><li>XGBoost</li><li>LightGBM</li><li>LSTM</li><li>scikit-learn</li><li>pandas</li></ul></td>
+              <td class="seen">Seen in <a href="#work-vla">VLA models</a>, <a href="#work-f1">F1 predictor</a>, <a href="#work-paper">IEEE paper</a></td>
+            </tr>
+            <tr>
+              <th scope="row"><h3>Languages</h3></th>
+              <td class="items"><ul class="slashes"><li>Python</li><li>C++</li><li>Java</li><li>TypeScript</li><li>JavaScript</li><li>SQL</li></ul></td>
+              <td class="seen">Seen in <a href="#work-platform">robotics platform</a>, <a href="#work-iot">IoT monitoring</a>, <a href="#experience">Turntabl</a></td>
+            </tr>
+            <tr>
+              <th scope="row"><h3>Backend, cloud and tools</h3></th>
+              <td class="items"><ul class="slashes"><li>Spring Boot</li><li>Django REST</li><li>FastAPI</li><li>React</li><li>PostgreSQL</li><li>AWS S3</li><li>Azure</li><li>Docker</li><li>CI/CD</li><li>Git</li><li>Linux</li></ul></td>
+              <td class="seen">Seen in <a href="#experience">both software roles</a>, <a href="#work-f1">F1 predictor</a></td>
+            </tr>
+            <tr>
+              <th scope="row"><h3>Learning now</h3></th>
+              <td class="items"><ul class="slashes"><li>Advanced ROS 2</li><li>German (B1)</li></ul></td>
+              <td class="seen">In progress</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="titleblock" aria-hidden="true">
+          <div><small>Title</small>Skills</div><div><small>Sheet</small>03 of 08</div><div><small>Revision</small>Oct 2026</div>
+        </div>
+      </section>
+
+      <!-- ===================== SHEET 04: EDUCATION ===================== -->
+      <section class="sheet" id="education" aria-labelledby="edu-h" data-sheet="Education">
+        <div class="sheet-head"><h2 id="edu-h">Education</h2></div>
+        <table class="table">
+          <caption class="visually-hidden">Degrees, institutions and dates</caption>
+          <thead class="visually-hidden"><tr><th scope="col">Degree</th><th scope="col">Institution and dates</th><th scope="col">Detail</th></tr></thead>
+          <tbody>
+            <tr>
+              <th scope="row"><h3>M.Sc. Computer Science</h3></th>
+              <td class="items">University of Bonn<p class="sub">Apr 2026 to present</p></td>
+              <td class="seen">Robotics, autonomous systems and machine learning.</td>
+            </tr>
+            <tr>
+              <th scope="row"><h3>B.Sc. Computer Science</h3></th>
+              <td class="items">Ashesi University, Accra<p class="sub">Aug 2020 to Dec 2024</p></td>
+              <td class="seen">Dean's List in all semesters (GPA 3.5 and above).</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- TODO: confirm the year and the exact paper title; the DOI looks like an IEEE conference paper (ICAST 2024) while the CV says journal. -->
+        <p class="table-note">Publication: Machine learning for detecting fraudulent crypto platforms, IEEE, 2024. <a href="https://doi.org/10.1109/ICAST61769.2024.10856435">DOI 10.1109/ICAST61769.2024.10856435</a></p>
+        <div class="titleblock" aria-hidden="true">
+          <div><small>Title</small>Education</div><div><small>Sheet</small>04 of 08</div><div><small>Revision</small>Oct 2026</div>
+        </div>
+      </section>
+
+      <!-- ===================== SHEET 05: SELECTED WORKS ===================== -->
+      <section class="sheet" id="works" aria-labelledby="works-h" data-sheet="Works">
+        <div class="sheet-head">
+          <h2 id="works-h">Selected works</h2>
+          <p class="lede">Robotics and robot learning first, then supporting engineering and research.</p>
+        </div>
+
+        <div class="works">
+
+          <!-- Fig. 3: VLA project (featured) -->
+          <article class="card card--featured" id="work-vla">
+            <figure class="fig">
+              <div class="fig-frame">
+                <svg class="ph" aria-hidden="true" preserveAspectRatio="none" viewBox="0 0 160 100"><line x1="0" y1="0" x2="160" y2="100" vector-effect="non-scaling-stroke"/><line x1="160" y1="0" x2="0" y2="100" vector-effect="non-scaling-stroke"/></svg>
+              <span class="ph-label">Image pending</span>
+                <!-- TODO: add assets/media/vla-cover.jpg (1600x1000), a photo or frame from a rollout. -->
+                <img src="assets/media/setup.jpeg" alt="Bimanual robot manipulating objects during a policy rollout" width="1600" height="1000" loading="lazy" onerror="this.classList.add('is-missing')">
+              </div>
+              <figcaption class="fig-cap">Fig. 3 Bimanual rollout</figcaption>
+            </figure>
+            <div class="card-body">
+              <span class="status">Lab project</span> <!-- TODO: change to Completed or Ongoing once you have decided -->
+              <h3>Vision language action models for bimanual manipulation</h3>
+              <p class="context">Cognitive Robotics Lab, University of Bonn</p>
+              <p class="summary">I fine tuned and compared two VLA models, π0.5 and X-VLA, on a bimanual robot platform for two tasks: brick placement and multi stage bottle opening.</p>
+              <ul class="facts">
+                <li>Built the layer between data, models and robot: LeRobot dataset conversion, action space registration, and a FastAPI policy server and client for real robot and MuJoCo rollouts.</li>
+                <!-- TODO: add the number of trials behind these success rates; a technical reader will ask. -->
+                <li>π0.5 reached 90% success on brick placement and 20% full task success on bottle opening.</li>
+                <li>Alignment with a model's pretrained action space was a key factor in the performance gap between the two models.</li>
+              </ul>
+              <p class="tech">Openpi (π0.5) / X-VLA / LeRobot / MuJoCo / FastAPI / Python</p>
+              <p class="links"><a href="https://github.com/jt-manful/vla-for-opening-milk">Repository on GitHub</a></p>
+            </div>
+          </article>
+
+          <!-- Fig. 4: Autonomous Robotics and AI Platform -->
+          <!-- <article class="card" id="work-platform">
+            <figure class="fig">
+              <div class="fig-frame">
+                <svg class="ph" aria-hidden="true" preserveAspectRatio="none" viewBox="0 0 160 100"><line x1="0" y1="0" x2="160" y2="100" vector-effect="non-scaling-stroke"/><line x1="160" y1="0" x2="0" y2="100" vector-effect="non-scaling-stroke"/></svg>
+              <span class="ph-label">Image pending</span>
+                <img src="assets/media/platform-cover.jpg" alt="Object detections visualised in RViz2" width="1600" height="1000" loading="lazy" onerror="this.classList.add('is-missing')">
+              </div>
+              <figcaption class="fig-cap">Fig. 4 Detections in RViz2</figcaption>
+            </figure>
+            <div class="card-body">
+              <span class="status">Ongoing</span>
+              <h3>Autonomous Robotics and AI Platform</h3>
+              <p class="summary">A ROS 2 Jazzy workspace I am growing step by step, from computer vision towards navigation, manipulation and task planning.</p>
+              <ul class="facts">
+                <li>Perception pipeline combining OpenCV and ONNX Runtime for object detection, publishing standard <code>vision_msgs</code> for downstream nodes.</li>
+                <li>Reproducible Docker and dev container setup with colcon, RViz2 and Git.</li>
+              </ul>
+              <p class="tech">ROS 2 Jazzy / C++ / OpenCV / ONNX Runtime / Docker</p>
+              <p class="links"><a href="https://github.com/jt-manful/Automous-Robot-and-AI-Platform">Repository on GitHub</a></p>
+            </div>
+          </article> -->
+
+          <!-- Fig. 5: ROS 2 mobile robot -->
+          <article class="card" id="work-nav">
+            <figure class="fig">
+              <div class="fig-frame">
+                <svg class="ph" aria-hidden="true" preserveAspectRatio="none" viewBox="0 0 160 100"><line x1="0" y1="0" x2="160" y2="100" vector-effect="non-scaling-stroke"/><line x1="160" y1="0" x2="0" y2="100" vector-effect="non-scaling-stroke"/></svg>
+              <span class="ph-label">Image pending</span>
+                <!-- TODO: add assets/media/nav-sim-cover.jpg, an RViz2 map with a planned path. -->
+                <img src="assets/media/nav-sim-cover.jpg" alt="RViz2 showing a map being built and a planned path" width="1600" height="1000" loading="lazy" onerror="this.classList.add('is-missing')">
+              </div>
+              <figcaption class="fig-cap">Fig. 5 Map and planned path</figcaption>
+            </figure>
+            <div class="card-body">
+              <span class="status">Simulation</span> <!-- TODO: confirm status -->
+              <h3>ROS 2 mobile robot: mapping and navigation</h3>
+              <p class="summary">A simulated mobile robot with a two axis arm that maps an unknown environment and navigates it autonomously.</p>
+              <ul class="facts">
+                <li>SLAM Toolbox builds the map in real time, and Nav2 handles path planning and obstacle avoidance.</li>
+                <li>The robot is described in URDF/Xacro and simulated in Gazebo, with state, map and trajectories shown in RViz2.</li>
+              </ul>
+              <p class="tech">ROS 2 / Nav2 / SLAM Toolbox / Gazebo / RViz2</p>
+              <p class="links"><a href="https://github.com/jt-manful/ros2-mobile-robot">Repository on GitHub</a></p>
+            </div>
+          </article>
+
+
+          <!-- Fig. 6: Lunar Lander reinforcement learning -->
+          <article class="card" id="lunar-lander">
+            <figure class="fig">
+              <div class="fig-frame">
+                <video
+                  src="assets/media/lunar-lander-landing.mp4"
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                  preload="metadata"
+                  aria-label="Reinforcement learning agent controlling a lunar lander during a successful landing"
+                  poster="assets/media/lunar-lander-cover.png">
+                </video>
+              </div>
+              <figcaption class="fig-cap">
+                Fig. 6 Lunar Lander agent executing a landing
+              </figcaption>
+            </figure>
+            <div class="card-body">
+              <span class="status">Ongoing</span>
+              <h3>Lunar Lander: reward engineering for reinforcement learning</h3>
+              <p class="summary">A reinforcement learning project investigating how reward design influences learning efficiency, training stability, and autonomous spacecraft landing performance in Gymnasium's LunarLander-v3 environment.</p>
+              <ul class="facts">
+                <li>Implements tabular Q-learning and Proximal Policy Optimization (PPO) to train and evaluate autonomous landing policies.</li>
+                <li>Planned experiments compare reward-shaping strategies using learning curves, landing success rates, crash frequency, and touchdown conditions across multiple random seeds.</li>
+              </ul>
+              <p class="tech">Python / Gymnasium / Q-learning / PPO / Stable-Baselines3 / uv</p>
+              <p class="links"><a href="https://github.com/jt-manful/lunar-lander">Repository on GitHub</a></p>
+            </div>
+          </article>
+
+
+          <!-- Fig. 6: Smart IoT -->
+          <!-- <article class="card" id="work-iot">
+            <figure class="fig">
+              <div class="fig-frame">
+                <svg class="ph" aria-hidden="true" preserveAspectRatio="none" viewBox="0 0 160 100"><line x1="0" y1="0" x2="160" y2="100" vector-effect="non-scaling-stroke"/><line x1="160" y1="0" x2="0" y2="100" vector-effect="non-scaling-stroke"/></svg>
+              <span class="ph-label">Image pending</span> -->
+                <!-- TODO: add assets/media/iot-cover.jpg, a photo of the ESP32 nodes or the web portal. -->
+                <!-- <img src="assets/media/iot-cover.jpg" alt="ESP32 sensor nodes and the web management portal" width="1600" height="1000" loading="lazy" onerror="this.classList.add('is-missing')">
+              </div>
+              <figcaption class="fig-cap">Fig. 6 Sensor nodes and portal</figcaption>
+            </figure>
+            <div class="card-body">
+              <span class="status">Completed</span> -->
+               <!-- TODO: confirm status -->
+              <!-- <h3>Smart IoT environmental monitoring</h3>
+              <p class="context">CS 458 IoT project, Ashesi University</p>
+              <p class="summary">Two ESP32 sensor nodes measuring temperature, humidity and light, feeding a telemetry pipeline and a web management portal.</p>
+              <ul class="facts">
+                <li>Local LCD display, relay controlled fan, and flash memory failover logging on each node.</li>
+                <li>Data ingested over both MQTT and HTTP REST into a relational database. The portal supports live telemetry, remote actuator overrides and OTA firmware updates.</li>
+                <li>A scikit-learn model forecasts temperature trends, evaluated with mean absolute error.</li>
+              </ul>
+              <p class="tech">C/C++ / Python / ESP32 / MQTT / SQL / scikit-learn</p>
+              <p class="links"><a href="https://github.com/jt-manful/SmartEnvSensorsNet">Repository on GitHub</a></p>
+            </div>
+          </article> -->
+
+          <!-- Fig. 6: F1 predictor -->
+          <!-- <article class="card" id="work-f1">
+            <figure class="fig">
+              <div class="fig-frame">
+                <svg class="ph" aria-hidden="true" preserveAspectRatio="none" viewBox="0 0 160 100"><line x1="0" y1="0" x2="160" y2="100" vector-effect="non-scaling-stroke"/><line x1="160" y1="0" x2="0" y2="100" vector-effect="non-scaling-stroke"/></svg>
+              <span class="ph-label">Image pending</span> 
+                <img src="assets/media/f1-cover.jpg" alt="Dashboard showing live race order and per driver pit stop probability" width="1600" height="1000" loading="lazy" onerror="this.classList.add('is-missing')">
+              </div>
+              <figcaption class="fig-cap">Fig. 6 Live dashboard</figcaption>
+            </figure>
+            <div class="card-body">
+              <span class="status status--soon">Code coming soon</span> 
+              <h3>F1 live pit stop strategy predictor</h3>
+              <p class="summary">A model that estimates each driver's chance of pitting within the next three laps from live telemetry.</p>
+              <ul class="facts">
+                <li>XGBoost and a lightweight LSTM, using tyre degradation, gaps to other cars and historical track strategy.</li>
+                <li>FastAPI backend streaming predictions over WebSockets to a React and Tailwind dashboard with race order, probability bars and a track map.</li>
+              </ul>
+              <p class="tech">XGBoost / LSTM / FastAPI / WebSockets / React</p>
+              <p class="links"><span class="soon">Repository coming soon</span></p>
+            </div>
+          </article> -->
+
+          <!-- Research (no figure) -->
+          <article class="card card--wide" id="work-paper">
+                        <div class="card-body">
+              <span class="status">Published</span>
+              <h3>Detecting fraudulent crypto platforms with machine learning</h3>
+              <p class="context">Undergraduate thesis, Ashesi University, IEEE</p> <!-- TODO: confirm conference paper or journal, and add the exact paper title -->
+              <p class="summary">An ensemble of Random Forest and LightGBM that reached 96.2% classification accuracy.</p>
+              <ul class="facts">
+                <li>Engineered features from certificate security signals, WHOIS metadata and aggregated user review sentiment.</li>
+              </ul>
+              <p class="tech">Python / Random Forest / LightGBM</p>
+              <p class="links"><a href="https://doi.org/10.1109/ICAST61769.2024.10856435">Read the paper (DOI)</a></p>
+            </div>
+          </article>
+
+        </div>
+        <div class="titleblock" aria-hidden="true">
+          <div><small>Title</small>Selected works</div><div><small>Sheet</small>05 of 08</div><div><small>Revision</small>Oct 2026</div>
+        </div>
+      </section>
+
+      <!-- ===================== SHEET 06: EXPERIENCE ===================== -->
+      <section class="sheet" id="experience" aria-labelledby="exp-h" data-sheet="Experience">
+        <div class="sheet-head"><h2 id="exp-h">Experience</h2></div>
+        <ol class="rev">
+          <li>
+            <div>
+              <p class="when">Aug 2025 to Mar 2026</p>
+              <h3>Software Engineer</h3>
+              <p class="org">Turntabl</p>
+            </div>
+            <ul>
+              <li>Built Spring Boot REST APIs and React components for Bonarda HR, an HR management platform, and raised frontend test coverage to 85% with unit and integration tests.</li>
+              <li>Built backend services for a waste management platform: scalable APIs and optimised database queries.</li>
+              <li>Contributed to a trading engine, implementing concurrent processing patterns and keeping transactions consistent in an event driven architecture.</li>
+              <li>Worked in Agile sprints with code reviews and CI/CD pipelines, applying clean code and SOLID principles.</li>
+            </ul>
+          </li>
+          <li>
+            <div>
+              <p class="when">Nov 2024 to Aug 2025</p>
+              <h3>Research Assistant, Robot Assistant Platform</h3>
+              <p class="org">Ashesi University</p>
+            </div>
+            <ul>
+              <li>Programmed embedded software and hardware interfaces in C++ and Python for an affordable ROS based service robot, informing its architecture and sensor integration.</li>
+              <li>Designed, ran and analysed a baseline user study to turn user expectations into robot features and interaction workflows.</li>
+              <li>Debugged hardware and software protocols and tuned system performance with a cross functional team on Linux.</li>
+            </ul>
+          </li>
+          <li>
+            <div>
+              <p class="when">Sep 2024 to Aug 2025</p>
+              <h3>Software Engineer</h3>
+              <p class="org">Ashesi University</p>
+            </div>
+            <ul>
+              <li>Developed a secure dataset sharing platform with Python and Django REST Framework, deployed on Microsoft Azure and Linux servers.</li>
+              <li>Implemented JWT authentication and structured permission controls for external API consumers.</li>
+              <li>Integrated AWS S3 for file storage and wrote unit and integration tests for API reliability and data accuracy.</li>
+            </ul>
+          </li>
+        </ol>
+        <div class="titleblock" aria-hidden="true">
+          <div><small>Title</small>Experience</div><div><small>Sheet</small>06 of 08</div><div><small>Revision</small>Oct 2026</div>
+        </div>
+      </section>
+
+      <!-- ===================== SHEET 07: FIELD NOTES ===================== -->
+      <section class="sheet" id="notes" aria-labelledby="notes-h" data-sheet="Field notes">
+        <div class="sheet-head">
+          <h2 id="notes-h">Field notes</h2>
+          <p class="lede">Hackathons, things I have read, and what I am learning in robotics.</p>
+        </div>
+        <!-- To add a note: copy templates/note-template.html to notes/your-note.html, then paste an <li> like the one below
+             at the top of this list and at the top of notes/index.html (newest first). Keep this list to three entries. -->
+        <ul class="note-list">
+          <li>
+            <a href="notes/tu-dresden-hackathon.html">
+              <div class="note-meta"><strong>Hackathon</strong><time datetime="2026-10">Oct 2026</time></div>
+              <div>
+                <h3>Mobile Robotics Hackathon at TU Dresden</h3>
+                <p>Notes from the hackathon. The full write up is in progress.</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <p class="more-notes"><a href="notes/">All notes</a></p>
+        <div class="titleblock" aria-hidden="true">
+          <div><small>Title</small>Field notes</div><div><small>Sheet</small>07 of 08</div><div><small>Revision</small>Oct 2026</div>
+        </div>
+      </section>
+
+      <!-- ===================== SHEET 08: CONTACT ===================== -->
+      <section class="sheet" id="contact" aria-labelledby="contact-h" data-sheet="Contact">
+        <div class="sheet-head">
+          <h2 id="contact-h">Contact</h2>
+          <p class="lede">I am looking for working student, internship and full time roles in Germany and remote. Email is the quickest way to reach me.</p>
+        </div>
+        <!-- TODO: decide which email address should be public (this one, or your university address). -->
+        <ul class="contact-list">
+          <li><span class="label">Email</span> <a href="mailto:johnmanful2002@hotmail.com">johnmanful2002@hotmail.com</a></li>
+          <li><span class="label">GitHub</span> <a href="https://github.com/jt-manful">github.com/jt-manful</a></li>
+          <li><span class="label">LinkedIn</span> <a href="https://www.linkedin.com/in/john-terence-manful">linkedin.com/in/john-terence-manful</a></li>
+          <li><span class="label">Location</span> <span>Bonn, Germany</span></li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="mailto:johnmanful2002@hotmail.com"><span>Send an email</span></a>
+        </div>
+        <div class="titleblock" aria-hidden="true">
+          <div><small>Title</small>Contact</div><div><small>Sheet</small>08 of 08</div><div><small>Revision</small>Oct 2026</div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 John Terence Manful</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

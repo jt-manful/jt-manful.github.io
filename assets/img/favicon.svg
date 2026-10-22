@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg{fill:#ECEFF0}.ln{fill:none;stroke:#1F3A93;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}.pin{fill:#1F3A93}.ac{stroke:#B8321B}
+    @media (prefers-color-scheme: dark){.bg{fill:#0C2A4D}.ln{stroke:#8FC1E8}.pin{fill:#8FC1E8}.ac{stroke:#F2B84B}}
+  </style>
+  <rect class="bg" width="64" height="64"/>
+  <path class="ln" d="M8 54H56"/>
+  <path class="ln" d="M16 54l3-8h12l3 8"/>
+  <path class="ln" d="M25 42L38 17L50 31"/>
+  <path class="ln ac" d="M50 31v10M45 41h10"/>
+  <circle class="pin" cx="25" cy="42" r="3.4"/><circle class="pin" cx="38" cy="17" r="3.4"/><circle class="pin" cx="50" cy="31" r="3.4"/>
+</svg>
